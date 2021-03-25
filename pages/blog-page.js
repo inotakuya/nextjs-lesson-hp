@@ -5,7 +5,7 @@ import Post from "../components/Post"
 
 const Blog = ({ posts }) => {
   return (
-    <Layout title="Blog">
+    <Layout title="Blog Test">
       <ul className="m-10">{posts && posts.map(post => <Post key={post.id} post={post} />)}</ul>
     </Layout>
   )
